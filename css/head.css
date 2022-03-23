@@ -1,0 +1,14 @@
+#hd{
+    position: fixed;
+    left: 0; right: 0; top: 0; bottom: 0;
+    height: 80px;
+    background-color: black;
+    z-index: 1000;
+    transition: 0.5s;
+}
+#hd.up{
+    transform: translateY(-100%);
+}
+.wrap{
+    height: 5000px;
+}
